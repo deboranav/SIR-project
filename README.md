@@ -18,10 +18,10 @@ R(t) = R(t − 1) + h.k.I(t − 1)
 tempo(t) = tempo(t − 1) + h
 
 Em que:
-● h: pequeno intervalo de tempo (em horas);
-● b: facilidade de contágio de um indivíduo;
-● k: probabilidade que um indivíduo se recupere;
-● tempo: instantes de tempo nos quais o modelo é simulado (em horas).
+* h: pequeno intervalo de tempo (em horas);
+* b: facilidade de contágio de um indivíduo;
+* k: probabilidade que um indivíduo se recupere;
+* tempo: instantes de tempo nos quais o modelo é simulado (em horas).
 
 Para estimar o parâmetro b, pode-se observar, durante um intervalo de tempo T, quantos indivíduos N se infectaram, considerando-se o número de pessoas suscetíveis e o número de
 pessoas infectadas no início da observação. A equação abaixo resume o cálculo:
@@ -29,12 +29,13 @@ pessoas infectadas no início da observação. A equação abaixo resume o cálc
 b = N/TS*I0*0
 
 Em que:
-● N: número de pessoas suscetíveis que se infectaram em um intervalo de tempo T
-● S : número de pessoas suscetíveis no início da observação 0
-● I : número de pessoas infectadas no início da observação 0
+* N: número de pessoas suscetíveis que se infectaram em um intervalo de tempo T
+* S : número de pessoas suscetíveis no início da observação 0
+* I : número de pessoas infectadas no início da observação 0
 
 Para se estimar o parâmetro k, pode-se observar, durante um intervalo de tempo T’, quantos indivíduos m se recuperaram de um total de n indivíduos. A equação abaixo resume o
 cálculo:
+
 k = m/nT′
 
 ## Cenários extra
