@@ -10,8 +10,11 @@ faleceram).
 Neste tipo, um indivíduo da população S pode permanecer em S ou ir para a população I, caso seja infectado. Um indivíduo de I pode, então, se recuperar ou falecer. Indivíduos que pertençam a R não mudam de população. A interação entre essas populações pode ser descrita pelas equações abaixo:
 
 S(t) = S(t − 1) − h.b.S(t − 1).I(t − 1)
+
 I(t) = I(t − 1) + h.[b.S(t − 1).I(t − 1) − k.I(t − 1)]
+
 R(t) = R(t − 1) + h.k.I(t − 1)
+
 tempo(t) = tempo(t − 1) + h
 
 Em que:
