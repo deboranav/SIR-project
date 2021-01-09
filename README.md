@@ -53,7 +53,9 @@ O programa lê um arquivo de entrada .txt (descrito futuramente) e implementa o 
 
 ### Como criar o .txt de entrada
 O arquivo .txt de entradas para o programa deve ser escrito separando os valores de entrada por vírgulas e deve haver um espaço entre o número e a vírgula que o antecede, de forma que não haja nada antes do primeiro valor. Além de seguir a ordem subsequente: S (0), I(0), R(0), h, N , T , S(0) , I(0) , m, n, T ′ e o tempo de simulação em dias. Segue abaixo um exemplo de entrada: 
+
                    68, 2, 0, 01, 12, 24, 10, 50, 6, 22, 24, 21
+                   
 O arquivo deve ser nomeado como “entradas.txt” e deve ser salvo no mesmo diretório que o programa.
 
 ### Como solicitar a implementação dos cenários 1 e 2
